@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="/posts/">posts</a>
+      <a href="/about/">about</a>
+    </div>
+
+    {{ block "main" . }}{{ end }}
+
+    <div class="footer"></div>
+  </body>
+</html>

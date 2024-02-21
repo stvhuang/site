@@ -1,0 +1,6 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'stvhuang'
+
+[markup.highlight]
+style = "tango"
